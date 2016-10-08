@@ -1,7 +1,5 @@
 body {
   background-color: white;
-  margin-left: 200px;
-  /*margin: auto;*/
 }
 
 header {
@@ -9,25 +7,36 @@ header {
   width: 100%;
 }
 
-nav ul {
+header ul {
   float: right;
 }
 
-nav li {
+header li {
   display: inline;
+}
+
+article ul {
+  background-image: url("assets/list-bg.png");
 }
 
 .forkAndKnife {
   float:left;
-  margin: 1px;
+  width: 42px;
   /*height: 200px; change pic size to see where text shows in relation to it
   width: 200px;*/
+}
+
+#headerImageAndText {
+  width: 200px;
+  float: left;
 }
 
 #delicious {
   font-family: Lucida Calligraphy, sans-serif;
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-top:auto;
+  margin-bottom: auto;
   width: 200px;
 }
 
@@ -35,10 +44,9 @@ nav li {
   font-family: Eurostile, sans-serif;
   font-size: 10px;
   width: 200px;
-  margin: 1px;
-  float: left;
+  margin-left: 50px;
+  margin-top: auto;
 }
-
 
 #topBorder {
   height: 20px;
@@ -56,4 +64,5 @@ nav li {
 
 #page {
   width: 901px;
+  margin: 0 auto;
 }
