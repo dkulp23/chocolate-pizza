@@ -16,10 +16,21 @@ header li {
   display: inline;
 }
 
+article p {
+  padding: 10px 0px;
+  text-indent: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 article li {
   list-style-type: none;
   font-family: 'Handlee', cursive;
   padding: 4px;
+}
+
+footer {
+  overflow: auto;
+  width: 100%;
 }
 
 .forkAndKnife {
@@ -29,10 +40,6 @@ article li {
   width: 200px;*/
 }
 
-.ingredients {
-  float: left;
-  margin: 30px;
-}
 
 #headerImageAndText {
   width: 200px;
@@ -70,10 +77,72 @@ article li {
    );
 }
 
+#pizzaTitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#posting {
+  float: left;
+  margin-top: 0px;
+  color: gray;
+  font-size: 12px;
+}
+
+#printer1 {
+  float: right;
+  margin-top: 0px;
+  color: gray;
+  font-size: 12px;
+}
+
 #ingredientsContainer {
   background-image: url("assets/list-bg.png");
   overflow: auto;
   width: 100%;
+}
+
+#ingredients1 {
+  float:left;
+  padding-left: 80px;
+  padding-right: 150px;
+}
+
+#ingredients2 {
+  float: left;
+}
+
+#footerAuthor {
+  width: 700px;
+  float: left;
+}
+
+#vanessaphoto {
+  float: left;
+}
+
+#author {
+  float: left;
+  margin: 2px;
+}
+
+#aboutVanessa {
+  float: left;
+  margin: 2px;
+}
+
+#shareButton {
+  width: 200px;
+  height: 100px;
+  background: orange;
+  text-align: center;
+  float: right;
+}
+
+#footerLogo {
+  margin: 10px auto;
+  clear: both;
 }
 
 #page {
