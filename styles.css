@@ -5,6 +5,7 @@ body {
 header {
   overflow: auto;
   width: 100%;
+  height: 70px;
 }
 
 header ul {
@@ -15,8 +16,10 @@ header li {
   display: inline;
 }
 
-article ul {
-  background-image: url("assets/list-bg.png");
+article li {
+  list-style-type: none;
+  font-family: 'Handlee', cursive;
+  padding: 4px;
 }
 
 .forkAndKnife {
@@ -24,6 +27,11 @@ article ul {
   width: 42px;
   /*height: 200px; change pic size to see where text shows in relation to it
   width: 200px;*/
+}
+
+.ingredients {
+  float: left;
+  margin: 30px;
 }
 
 #headerImageAndText {
@@ -49,17 +57,23 @@ article ul {
 }
 
 #topBorder {
-  height: 20px;
+  height: 9px;
   width: 901px;
   margin: 1px;
   background-image:
    repeating-linear-gradient(
      45deg,
      white,
-     white 6px,
-     black 2px,
-     black 8px /* determines size */
+     white 2px,
+     black 1px,
+     black 3px /* determines size */
    );
+}
+
+#ingredientsContainer {
+  background-image: url("assets/list-bg.png");
+  overflow: auto;
+  width: 100%;
 }
 
 #page {
