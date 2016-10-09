@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="styles.css" media="screen" title="no title">
-    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans|Poiret+One" rel="stylesheet">
   </head>
   <body>
     <div id="page">
@@ -27,9 +27,11 @@
       </header>
       <div id="topBorder"></div>
       <div id="content">
-        <h1>Chocolate Pizza</h1>
-        <p>POSTED ON 15 DEC 2013/DESSERTS</p>
-        <p id="printer1"> <img src="assets/print-icon.png" alt="printer"> PRINT</p>
+        <p id="pizzaTitle">Chocolate Pizza</p>
+        <div class="postAndPrint">
+          <p id="posting">POSTED ON 15 DEC 2013/DESSERTS</p>
+          <p id="printer1"> <img src="assets/print-icon.png" alt="printer"> PRINT</p>
+        </div>
         <img src="assets/choco-pizza.png" alt="chocolate pizza" />
         <article id="recipe">
           <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
@@ -37,7 +39,7 @@
           <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e. let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Contine to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Free for at least two hours before serving.</p>
         </article>
         <article id="ingredientsContainer">
-          <ul class="ingredients">
+          <ul id="ingredients1">
             <li><input type="checkbox">1 1/2 cups milk</input></li>
             <li><input type="checkbox">1/2 cup mascarpone</input></li>
             <li><input type="checkbox">1/2 tsp pink salk</input></li>
@@ -45,7 +47,7 @@
             <li><input type="checkbox">1/2 cup brown sugar</input></li>
             <li><input type="checkbox">2-4 tbsp water</input></li>
           </ul>
-          <ul class="ingredients">
+          <ul id="ingredients2">
             <li><input type="checkbox">1 1/2 cups heavy cream</input></li>
             <li><input type="checkbox">1/3 cup granulated sugar</input></li>
             <li><input type="checkbox">2 egg yolks</input></li>
@@ -57,13 +59,15 @@
       </div>
       <div id="bottomBorder"></div>
       <footer>
-        <img src="assets/van-pic.png" alt="">
-        <h3 id="autor"><strong>Vanessa Stevenson</strong></h3>
-        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        <div id="footerAuthor">
+          <img id="vanessaphoto" src="assets/van-pic.png" alt="vanessa">
+          <h4 id="author"><strong>Vanessa Stevenson</strong></h4>
+          <p id="aboutVanessa">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
         <div id="shareButton">
           <p>SHARE RECIPE</p>
         </div>
-        <img src="assets/logo.png" alt="fork and knife logo">
+        <img id="footerLogo" src="assets/logo.png" alt="fork and knife logo">
         <p id="copyright">Delicious &copy; 2013 &#183; All Rights Reserved.</p>
         <p id="publishing">Proudly published with Ghost.</p>
       </footer>
