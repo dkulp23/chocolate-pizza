@@ -1,33 +1,50 @@
 body {
   background-color: white;
-  margin-left: 200px;
-  /*margin: auto;*/
 }
 
 header {
   overflow: auto;
   width: 100%;
+  height: 70px;
 }
 
-nav ul {
+header ul {
   float: right;
 }
 
-nav li {
+header li {
   display: inline;
+}
+
+article li {
+  list-style-type: none;
+  font-family: 'Handlee', cursive;
+  padding: 4px;
 }
 
 .forkAndKnife {
   float:left;
-  margin: 1px;
+  width: 42px;
   /*height: 200px; change pic size to see where text shows in relation to it
   width: 200px;*/
+}
+
+.ingredients {
+  float: left;
+  margin: 30px;
+}
+
+#headerImageAndText {
+  width: 200px;
+  float: left;
 }
 
 #delicious {
   font-family: Lucida Calligraphy, sans-serif;
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-top:auto;
+  margin-bottom: auto;
   width: 200px;
 }
 
@@ -35,25 +52,31 @@ nav li {
   font-family: Eurostile, sans-serif;
   font-size: 10px;
   width: 200px;
-  margin: 1px;
-  float: left;
+  margin-left: 50px;
+  margin-top: auto;
 }
 
-
 #topBorder {
-  height: 20px;
+  height: 9px;
   width: 901px;
   margin: 1px;
   background-image:
    repeating-linear-gradient(
      45deg,
      white,
-     white 6px,
-     black 2px,
-     black 8px /* determines size */
+     white 2px,
+     black 1px,
+     black 3px /* determines size */
    );
+}
+
+#ingredientsContainer {
+  background-image: url("assets/list-bg.png");
+  overflow: auto;
+  width: 100%;
 }
 
 #page {
   width: 901px;
+  margin: 0 auto;
 }
