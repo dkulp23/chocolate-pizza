@@ -33,6 +33,10 @@ footer {
   width: 100%;
 }
 
+input[type="checkbox"]:checked {
+  text-decoration: line-through;
+}
+
 .forkAndKnife {
   float:left;
   width: 42px;
